@@ -29,7 +29,7 @@ body
 .container .left_Side
 {
     position: relative;
-    background: rgb(132, 29, 132);
+    background: rgb(146, 80, 146);
     padding: 40px;
 }
 .profileText
@@ -60,7 +60,7 @@ body
 }
 .profileText h2
 {
-    color: #fff;
+    color: #290122;
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;
@@ -77,13 +77,12 @@ body
 {
    padding-top: 40px; 
 }
-.title
+.contactInfo h3
 {
-    color: #fff;
+    color: #290122;
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contactInfo ul
 {
@@ -101,45 +100,41 @@ body
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: rgb(46, 5, 46);
+    color: #290122;
 }
 .contactInfo ul li span
 {
-    color: #fff;
+    color: #290122;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
 }
 .contactInfo ul li span a
 {
-    color: #fff;
+    color: #290122;
     font-size: 14px;
-    font-weight: 300;
-}
-.contactInfo.education li
-{
-    margin-bottom: 15px;
-}
-.contactInfo.education h5
-{
-    color: rgb(46, 5, 46);
     font-weight: 500;
 }
-.contactInfo.education h4:nth-child(2)
+.contactInfo.technicalSkills .title h3
 {
-    color: #fff;
-    font-weight: 400;
+    color: #290122;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
-.contactInfo.education h4
+.contactInfo.technicalSkills .box h4
 {
-    color: #fff;
-    font-weight: 400;
+    margin-bottom: 10px;
+    color: #290122;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 500;
 }
 .contactInfo.language .percent
 {
     position: relative;
     width: 100%;
     height: 6px;
-    background: black;
+    background: #290122;
     display: block;
     margin-top: 5px;
 }
@@ -149,13 +144,13 @@ body
     top: 0;
     left: 0;
     height: 100%;
-    background: rgba(194, 133, 184, 0.927);
+    background: rgba(218, 157, 208, 0.927);
 }
 
 .container .right_Side
 {
-    position: relative;
-    background: #fff;
+    position:relative;
+    background:  #fff;
     padding: 40px;
 }
 .about
@@ -169,7 +164,7 @@ body
 }
 .title2
 {
-    color: #6c176c;
+    color: #290122;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -184,7 +179,7 @@ p
 {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .about .box .year_company
 {
@@ -192,7 +187,7 @@ p
 }
 .about .box .year_company h5
 {
-    color: rgb(102, 1, 102);
+    color: #290122;
     font-size: 14px;
     font-weight: 600;
 }
@@ -202,35 +197,64 @@ p
     font-size: 16px;
     font-weight: 600;
 }
-.skills .box
-{
-   position: relative;
-   width: 100%;
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   justify-content: center;
-   align-items: center;
-}
-.skills .box h4
+.about .box .box h4
 {
     color: rgb(154, 41, 154);
+    font-size: 12px;
     font-weight: 500;
 }
-.interest ul
+.about .education
 {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    color: #290122;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
 }
-.interest ul li
+.about .education h5
 {
-    list-style: none;
+    color: #290122;
+    font-size: 14px;
+    font-weight: 600;
+}
+.about .education h4:nth-child(2)
+{
+    color: rgb(154, 41, 154);;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about .education h4
+{
     color: rgb(154, 41, 154);
-    font-weight: 500;
-    margin: 10px 0;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 600;
 }
-.interest ul li .fa
+.about .courses
 {
-    color: rgb(102, 1, 102);
-    font-size: 18px;
-    width: 20px;
+    color: #290122;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about .courses h5
+{
+    color: #290122;
+    font-size: 14px;
+    font-weight: 600;
+}
+.about .courses h4:nth-child(2)
+{
+    color: rgb(154, 41, 154);
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .courses h4
+{
+    color: rgb(154, 41, 154);
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
